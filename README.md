@@ -29,7 +29,7 @@ Before compiling and using this plugin, ensure you have the following:
 
 5. **Restart Mosquitto:**
  Restart the Mosquitto broker for changes to take effect.
-    ```bash
+    ```
     Sudo systemctl restart mosquitto.service
     ```
 
@@ -37,11 +37,12 @@ Before compiling and using this plugin, ensure you have the following:
 Once installed and configured, this plugin will log message payloads to CSV files located in `/var/log/mosquitto/payloadLogs`.
 
 ## CSV Log Format
-The plugin logs each message payload in the following CSV format:
-    ```bash
+ The plugin logs each message payload in the following CSV format:
+ 
+    
     Payload,Date,Time
     message_payload,YYYY-MM-DD,HH:MM:SS
-    ```
+    
   - Payload: Contains the payload of the MQTT message.
   - Date: Represents the date when the message was received.
   - Time: Represents the time of day when the message was received.
