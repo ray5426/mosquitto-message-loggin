@@ -53,7 +53,7 @@ You can modify the CSV format by editing the callback_message function in `mosqu
   - This plugin assumes that Mosquitto is running with sufficient permissions to create directories and write files.
 
 ## License
-  - This plugin is licensed under the MIT License. See LICENSE for details.
+  - This plugin is licensed under the MIT License. See [License](LICENSE) for details.
 
 ## Author
   - Jay
